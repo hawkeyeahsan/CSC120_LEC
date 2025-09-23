@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CSC 120 LEC.iml" filepath="$PROJECT_DIR$/CSC 120 LEC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Weeks 1-2/Weeks 1-2.iml" filepath="$PROJECT_DIR$/Weeks 1-2/Weeks 1-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Weeks 2-4/Weeks 2-4.iml" filepath="$PROJECT_DIR$/Weeks 2-4/Weeks 2-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Weeks 4-6/Weeks 4-6.iml" filepath="$PROJECT_DIR$/Weeks 4-6/Weeks 4-6.iml" />
+    </modules>
+  </component>
+</project>
