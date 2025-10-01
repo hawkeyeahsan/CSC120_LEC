@@ -23,15 +23,33 @@ public class ArrayLinearSearch {
         System.out.print("What value would you like to search for? : ");
         searchFor = keyboard.nextInt();
 
+//        index = 0;
+//        while (index < randomData.length && randomData[index] != searchFor) {
+//            index++;
+//        }
+//
+//        if (index < randomData.length) {
+//            System.out.println(searchFor + " found at position " + index + " in the " +
+//                    DATA_SIZE + " elements");
+//        } else {
+//            System.out.println(searchFor + " not found after examining " + index + " elements");
+//        }
+
         index = 0;
-        while (index < randomData.length && randomData[index] != searchFor) {
+        boolean found = false;
+
+        while (!found && index < randomData.length) {
+
+            if (randomData[index] == searchFor) {
+                found = true;
+            }
             index++;
         }
 
-        if (index < randomData.length) {
-            System.out.println(searchFor + " found at position " + index + " in the " +
-                    DATA_SIZE + " elements");
-        } else {
+        if (found) {
+            System.out.println(searchFor + " found at position " + (index-1) + " in the " + DATA_SIZE + " elements");
+        }
+        else {
             System.out.println(searchFor + " not found after examining " + index + " elements");
         }
 
