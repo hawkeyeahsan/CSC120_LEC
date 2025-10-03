@@ -30,6 +30,7 @@ public class ArraySort {
         System.out.println();
     }
     //-------------------------------------------------------------------------------------------------
+    // Selection sort
     private static void sortTheArray(int[] dataToSort) {
 
         int positionToFill;
