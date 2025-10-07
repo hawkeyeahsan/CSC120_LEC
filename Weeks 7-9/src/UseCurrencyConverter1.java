@@ -27,7 +27,6 @@ public class UseCurrencyConverter1 {
         rands = keyboard.nextDouble();
         dollars = randConverter.toDollars(rands);
         System.out.printf("That's $%.2f\n",dollars);
-
     }
 //-------------------------------------------------------------------------------------------------
 }
